@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
-
 /* .App {
   text-align: center;
 }
@@ -45,6 +44,7 @@
 
 .heading {
   font-size: 50px;
+  color: white;
 }
 
 .Container {
@@ -82,6 +82,7 @@
   font-weight: 900;
   font-size: 20px;
 }
+
 .button {
   height: 35px;
   width: 50px;
@@ -94,7 +95,8 @@
 }
 
 .button:hover {
-  background-color: white; /* Green */
+  background-color: white;
+  /* Green */
   color: #0066b2;
 }
 
@@ -130,7 +132,8 @@
 }
 
 .button2:hover {
-  background-color: white; /* Green */
+  background-color: white;
+  /* Green */
   color: #0066b2;
 }
 
