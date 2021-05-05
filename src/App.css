@@ -1,4 +1,6 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +37,119 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+* {
+  background-color: #0066b2;
+}
+
+.heading {
+  font-size: 50px;
+}
+
+.Container {
+  font-family: "Poppins", sans-serif;
+  padding-top: 5rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Container2 {
+  /* margin-top: 5px; */
+  font-family: "Poppins", sans-serif;
+  padding-top: 1rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  align-content: flex-start;
+}
+
+.input {
+  border: solid;
+  background-color: white;
+  font-family: "Poppins", sans-serif;
+  height: 30px;
+  width: 500px;
+  text-align: center;
+}
+
+.listItem {
+  margin-left: 1rem;
+  color: white;
+  font-weight: 900;
+  font-size: 20px;
+}
+.button {
+  height: 35px;
+  width: 50px;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  overflow: hidden;
+  border: solid;
+  margin-left: 5px;
+  font-weight: bolder;
+}
+
+.button:hover {
+  background-color: white; /* Green */
+  color: #0066b2;
+}
+
+.button:after {
+  content: "";
+  background: #0066b2;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s;
+}
+
+.button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s;
+}
+
+.button2 {
+  height: 35px;
+  width: 50px;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  overflow: hidden;
+  border: solid;
+  margin-right: 20px;
+  font-weight: bolder;
+}
+
+.button2:hover {
+  background-color: white; /* Green */
+  color: #0066b2;
+}
+
+.button2:after {
+  content: "";
+  background: #0066b2;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s;
+}
+
+.button2:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s;
 }
